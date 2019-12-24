@@ -1,0 +1,26 @@
+-------1-------- Unite testing ----------------
+1. Create A test 
+vendor\bin\codecept generate:test unit Example
+
+2. Running a specific test
+vendor/bin/codecept run unit ExampleTest
+
+3. Running all test cases
+vendor\bin\codecept run unit
+
+
+------2------- Acceptance testing ------------
+
+1. create A test
+vendor\bin\codecept generate:cest acceptance First
+
+2. Configure Acceptance Tests (see quick setup)
+
+3. Write a Basic Test
+
+4. Run your test
+vendor\bin\codecept run --steps
+
+
+
+
